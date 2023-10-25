@@ -149,8 +149,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="316dp"
-        android:layout_height="58dp"
+        android:layout_width="331dp"
+        android:layout_height="42dp"
         android:layout_gravity="end"
         android:background="#E0E0E0"
         android:gravity="end"
