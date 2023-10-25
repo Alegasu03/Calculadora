@@ -149,13 +149,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="331dp"
-        android:layout_height="42dp"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
         android:layout_gravity="end"
         android:background="#E0E0E0"
         android:gravity="end"
         android:padding="8dp"
-        android:text="0"
+        android:text=""
         android:textSize="24sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="47dp"
