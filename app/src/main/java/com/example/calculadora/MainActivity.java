@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonigual.setOnClickListener(new View.OnClickListener() {
+        buttonigual.setOnClickListener(new View.OnClickListener() { //El igual llama al método realizar operación
             @Override
             public void onClick(View view) {
                 realizarOperacion();
@@ -101,9 +101,9 @@ public class MainActivity extends AppCompatActivity {
     private void realizarOperacion() {
         String textoActual = textView.getText().toString();
 
-        // Realiza la operación manualmente
+        // Realiza law operaciones
         String[] partes = textoActual.split("[-+x/]");
-        double resultado = Double.parseDouble(partes[0]);
+        double resultado = Double.parseDouble(partes[0]); //Añade la parte numérica al array
 
         for (int i = 1; i < partes.length; i++) {
             char operador = textoActual.charAt(partes[i - 1].length());
